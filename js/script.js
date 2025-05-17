@@ -10,8 +10,8 @@
     },
   ];
 
-  const removeTask = (index) => {
-    tasks.splice(index, 1);
+  const removeTask = (taskIndex) => {
+    tasks.splice(taskIndex, 1);
     render();
   };
 
