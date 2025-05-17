@@ -1,6 +1,6 @@
 .form {
     min-width: 85%;
-    padding: 15px;
+    padding: 10px;
     border: 2px solid rgba(204, 202, 202, 0.425);
     overflow-x: auto;
 }
