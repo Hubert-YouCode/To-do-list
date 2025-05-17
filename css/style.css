@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    max-width: 1000px;
+    background-color: rgba(182, 181, 181, 0.247);
+}
+
+.header {
+    margin-left: 10px;
+    margin-top: 50px;
+}
