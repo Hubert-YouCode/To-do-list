@@ -1,15 +1,32 @@
 .form {
-    min-width: 85%;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
+}
+
+
+@media(max-width: 767px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
+}
+
+.form__input {
     padding: 10px;
-    border: 2px solid rgba(204, 202, 202, 0.425);
-    overflow-x: auto;
+    border: 1px solid #ddd;
 }
 
 .form__button {
-    background-color: teal;
+    padding: 10px;
+    background: hsl(180, 100%, 25%);
     color: white;
-    padding: 15px;
-    min-width: 10%;
-    text-align: center;
     border: none;
+}
+
+.form__button:hover {
+    background: hsl(180, 100%, 30%);
+}
+
+.form__button:active {
+    background: hsl(180, 100%, 35%);
 }
